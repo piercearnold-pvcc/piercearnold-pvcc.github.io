@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Name: Pierce Arnold-->
+<!-- Program Purpouse: This is my PVCC index file. It will have links to all my coursework -->
+
+<head>
+    <title> Programming </title>
+</head>
+<style>
+    a {text-decoration: none;}
+    a:link {color:#b9a822}
+    a:visited {color:#94440f}
+    a:hover {color:#01135e}
+    a:active {color:#2256f3}
+    .custom-table {border-collapse: collapse; width: 100%;}
+    .custom-table, .custom-table th, .custom-table td {border: 1px solid black;}
+    .custom-table th, .custom-table td {padding: 8px;text-align: left;}
+</style>
+
+<body style="background-color: rgba(13, 11, 50, 0.7); font-family: Arial, Helvetica, sans-serif; background-image: url('bg-index.png');">
+<table boarder = "2" style="width:40%; color:#241409; background-color: #bce2f4; margin:auto;">
+
+<tr><td colspan="5">
+    <table style="background-color:#2f8ec9; text-align: center; margin: auto;" width="100%">
+        <td><a href="index.html"> Home </a></td>
+        <td><a href="https://www.pvcc.edu"> PVCC </a></td>
+        <td><a href="https://www.w3schools.com/html/"> Schools </a></td>
+        <td><a href="contactus.html"> Contact Us </a></td>
+    </table>
+    <h2> Chapter 5: Programming Algorithms & Software Testing </h2>
+    <table>
+        <td>Phases of computer program development:
+        <ul>
+            <li>Pahse 1: Understanding the problem</li>
+            <li>Phase 2: Design an algorithm to solve the problem</li>
+            <li>Phase 3: Write the program and code in approprate language based on the algorithm</li>
+            <li>Phase 4: Enter the program and save</li>
+            <li>Phase 5: Execute the program</li>
+            <li>Phase 6: Test the program, find errors and debug, the retest</li>
+            <li>Phase 7: Document and evaluate the program</li>
+        </ul>
+        Programming structures:
+        <ul>
+          <li>Sequential structure: Top-down execution</li>
+          <li>Decision structures: if/then/else</li>
+          <li>Interactive (looping):
+            <ul>
+                <li>while loop: continue looping as long as something is true</li>
+                <li>repeat/until loop: continue looping until something is true</li>
+                <li>for loop: loop a given number of times</li>
+            </ul>
+          </li>
+          <li>Recursive structures:
+            <ul>
+                <li>Repeat a set of instructions as a subtask of itself</li>
+                <li>Repitition continues until: degenerative case, which is a termination condition, is met (degenerative case is also called a "base case")</li>
+            </ul>
+          </li>
+        </ul>
+        Two classic programming/database problems
+        <ul>
+            <li>Sorting: Descending order/Ascending order
+                <ul>
+                    <li>Sorting numbers</li>
+                    <li>Sorting strings (in accordance with ASCII values)</li>
+                </ul>
+            </li>
+            <li>Searching: find specific data that meet a certain criteria
+                <ul>
+                    <li>In database:
+                        <ul>
+                            <li>Filters: temporary search</li>
+                            <li>queries: search criteria are saved so they don't have to be recreated</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Two popular search techniques:
+                <ul>
+                    <li>Sequential search: search from top to bottom or bottom to top, one item at a time</li>
+                    <li>Binary search:
+                        <ul>
+                            <li>only works if data is SORTED first</li>
+                            <li>start in the middle, then go to half of that, etc.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        Two classic program goals:
+        <ul>
+            <li>Efficiency: Program takes minimal time and/or resources</li>
+            <li>Correctness: Program runs in expected ways and works for all expected conditions</li>
+        </ul>
+        Software testing and verifacation
+        <ul>
+            <li>Kinds of tests:
+                <ul>
+                    <table class="custom-table">
+                        <tr>
+                            <td style="width: 30%;">Acceptance testing:</td>
+                            <td> Verifying whether the whole system works as intended.</td>
+                        </tr>
+                        <tr>
+                            <td>Intergration testing:</td>
+                            <td>Ensuring that software components or functions operate together.</td>
+                        </tr>
+                        <tr>
+                            <td>Unit testing:</td>
+                            <td>Validating that each software unit runs as expected. A unit is the smallest testable component of an application.</td>
+                        </tr>
+                        <tr>
+                            <td>Functional testing:</td>
+                            <td> Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.</td>
+                        </tr>
+                        <tr>
+                            <td>Performance testing:</td>
+                            <td>Testing how the software runs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions.</td>
+                        </tr>
+                        <tr>
+                            <td>Regression testing:</td>
+                            <td> Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test</td>
+                        </tr>
+                        <tr>
+                            <td>Stress testing:</td>
+                            <td>Testing how much strain the system can take before it fails. Stress testing is considered to be a type of non-functional testing.</td>
+                        </tr>
+                        <tr>
+                            <td>Useability testing:</td>
+                            <td>Validating how well a customer can use a system or web application to complete a task.</td>
+                        </tr>
+                        <tr>
+                    </table>
+                </ul>
+            </li>
+            <li>Software testing is done to detect:
+                <ul>
+                    <li>Architectural flaws</li>
+                    <li>Poor design decisions</li>
+                    <li>Invalid or incorrect functionality</li>
+                    <li>security Vulnerabilities</li>
+                    <li>Scalability issues</li>
+                </ul>
+            </li>
+            <li>Testing best practices
+                <ul>
+                    <table class="custom-table">
+                        <tr>
+                            <td style="width: 30%;">Continuous testing</td>
+                            <td>Testing all the time throughout the developement process allows projects to be field ready once finished.</td>
+                        </tr>
+                        <tr>
+                            <td>Configuration management</td>
+                            <td>univeral test assets are given to workers and kept track of after.</td>
+                        </tr>
+                        <tr>
+                            <td>Service virtulalization</td>
+                            <td>Allows programmers to test market like conditions without yet having code that is ready for full simulations.</td>
+                        </tr>
+                        <tr>
+                            <td>Defect or "bug tracking"</td>
+                            <td>Tools that track defects and determine the severity of the issue and other problems caused by the same issue.</td>
+                        </tr>
+                        <tr>
+                            <td>Metrics and reporting</td>
+                            <td>intergrates results and tests into programmers' workflow to ensure everyone is on the same page about the status of a project.</td>
+                        </tr>
+                        </table>
+                </ul>
+            </li>
+            <li> From: <a href="https://www.ibm.com/topics/software-testing"> IBM What is software testing?</a></li>
+        </ul>
+    </td>
+    </table>
+    </td></tr>
+</body>
+</html>
