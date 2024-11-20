@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Name: Pierce Arnold-->
+
+<head>
+    <title> Programming Languages </title>
+</head>
+<style>
+    a {text-decoration: none;}
+    a:link {color:#b9a822}
+    a:visited {color:#94440f}
+    a:hover {color:#01135e}
+    a:active {color:#2256f3}
+    .custom-table {border-collapse: collapse; width: 100%;}
+    .custom-table, .custom-table th, .custom-table td {border: 1px solid black;}
+    .custom-table th, .custom-table td {padding: 8px;text-align: left;}
+</style>
+
+<body style="background-color: rgba(13, 11, 50, 0.7); font-family: Arial, Helvetica, sans-serif; background-image: url('bg-index.png');">
+<table boarder = "2" style="width:40%; color:#241409; background-color: #bce2f4; margin:auto;">
+
+<tr><td colspan="5">
+    <table style="background-color:#2f8ec9; text-align: center; margin: auto;" width="100%">
+        <td><a href="index.html"> Home </a></td>
+        <td><a href="https://www.pvcc.edu"> PVCC </a></td>
+        <td><a href="https://www.w3schools.com/html/"> Schools </a></td>
+        <td><a href="contactus.html"> Contact Us </a></td>
+    </table>
+    <h2> Chapter 6: Programming Languages </h2>
+    <h4> (Through page 340) </h4>
+    <table class="custom-table">
+        <tr>
+            <td colspan="2" style="text-align: center;"><b>Definitions</b></td>
+        </tr>
+        <tr>
+            <td>machine language </td>
+            <td>programs for modern computers consist of sequences of instructions that are encoded as numeric digits. Such an encoding system is known as a machine language</td>
+        </tr>
+        <tr>
+            <td>debugging</td>
+            <td> Unfortunately, writing programs in a machine language is a tedious task that often leads to errors that must be located and corrected (a process known as debugging) before the job is finished.</td>
+        </tr>
+        <tr>
+            <td>assembler</td>
+            <td>programs called assemblers were developed to convert mnemonic expressions into machine language instructions.</td>
+        </tr>
+        <tr>
+            <td>assembly languate</td>
+            <td>A mnemonic system for representing programs is collectively called an assembly language.</td>
+        </tr>
+        <tr>
+            <td>trasnlator</td>
+            <td>Once this collection of high-level primitives had been identified, a program, called a translator, was written that translated programs expressed in these high-level primitives into machine-language programs.</td>
+        </tr>
+        <tr>
+            <td>compiler</td>
+            <td>Such a translator was similar to the second-generation assemblers, except that it often had to compile several machine instructions into short sequences to simulate the activity requested by a single high-level primitive. Thus, these translation programs were often called compilers.</td>
+        </tr>
+        <tr>
+            <td>interperter</td>
+            <td>These programs were similar to translators except that they executed the instructions as they were translated instead of recording the translated version for future use.</td>
+        </tr>
+        <tr>
+            <td>cross-platform software</td>
+            <td>That is, cross-platform software is software that is independent of an operating system’s design as well as the machine’s hardware design and is therefore executable throughout a network.</td>
+        </tr>
+        <tr>
+            <td>natural language</td>
+            <td>a language that evolved over time without formal grammatical analysis</td>
+        </tr>
+        <tr>
+            <td>formal language</td>
+            <td>a language that is precicely defined by grammers</td>
+        </tr>
+        <tr>
+            <td>machine independence</td>
+            <td>programs that do not rely on the characteristics of a particular machine</td>
+        </tr>
+        <tr>
+            <td>high-level programming language</td>
+            <td>High-level programming languages provide more abstractions for the programmer and make it easier for people to read and write a program</td>
+        </tr>
+        <tr>
+            <td>object oriented programming (OOP)</td>
+            <td> a software system is viewed as a collection of units, called objects, each of which is capable of performing the actions that are immediately related to itself as well as requesting actions of other objects. Together, these objects interact to solve the problem at hand.</td>
+        </tr>
+        <tr>
+            <td>scripting language</td>
+            <td>These languages are typically used to perform administrative tasks rather than to develop complex programs.</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><b>data types:</b></td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Integer</li>
+                    <li>float</li>
+                    <li>string</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>numeric data consisting of whole numbers</li>
+                    <li>numeric data that might contain values other than whole numbers</li>
+                    <li>data consisting of several characters strung together</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>primitive data type</td>
+            <td>The data types that are included as primitives in a programming language, such as int for integer and char for character, are called primitive data types.</td>
+        </tr>
+        <tr>
+            <td>data structure</td>
+            <td>the conceptual shape or arrangement of data.</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><b>Python collection data structures</b></td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>list</li>
+                    <li>tuple</li>
+                    <li>set</li>
+                    <li>dictonary</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>a collection which is ordered and changeable. Allows duplicate members.</li>
+                    <li>a collection which is ordered and unchangeable. Allows duplicate members.</li>
+                    <li>a collection which is unordered, unchangeable (items are unchangeable however items can be added or removed), and unindexed. No duplicate members.</li>
+                    <li>a collection which is ordered and changeable. No duplicate members. (no longer ordered as of version 3.7)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>function</td>
+            <td> a set of instructions for performing a task that can be used as an abstract tool by other program units.</td>
+        </tr>
+        <tr>
+            <td>local variable</td>
+            <td>a variable that can only be refrenced within one function</td>
+        </tr>
+        <tr>
+            <td>global variable</td>
+            <td>a variable whose scopes are not restricted to a aprticular part of a program</td>
+        </tr>
+        <tr>
+            <td>source program</td>
+            <td>a program in its original form</td>
+        </tr>
+        <tr>
+            <td>object program</td>
+            <td>the translated version of a program</td>
+        </tr>
+
+    </table>
+
+    </td></tr>
+</body>
+</html>
